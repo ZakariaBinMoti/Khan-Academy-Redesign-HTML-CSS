@@ -8,17 +8,16 @@
 }
 
 
-main{
-    margin: 500px;
-    background-color: #FFF;
+main {
+    /* background-color: #FFF; */
 }
 
-body{
+body {
     margin: 0px auto;
-    max-width: 120rem;
+    /* max-width: 120rem; */
 }
 
-body{
+body {
     background-color: #F6FAFE;
 }
 
@@ -161,11 +160,12 @@ header hr {
     max-width: 651px;
     position: relative;
 }
-.header-content h3 span{
+
+.header-content h3 span {
     color: #14BF96;
 }
 
-.underline{
+.underline {
     position: absolute;
     left: 0px;
     bottom: 64px;
@@ -180,10 +180,10 @@ header hr {
     line-height: normal;
     margin-bottom: 36px;
     margin-top: 30px;
-    max-width:  575px;
+    max-width: 575px;
 }
 
-.join-btn{
+.join-btn {
     border-radius: 4px;
     background: var(--Primary-Color, #14BF96);
     color: var(--Colors-White, #FFF);
@@ -199,7 +199,7 @@ header hr {
     margin-right: 19px;
 }
 
-.learn-btn{
+.learn-btn {
     border-radius: 4px;
     border: 2px solid var(--Primary-Color, #14BF96);
     color: #14BF96;
@@ -215,6 +215,67 @@ header hr {
     background: none;
 }
 
-.header-img img{
+.header-img img {
     width: 100%;
+}
+
+
+/* Why khan Academy works section  */
+
+.why-section {
+    background-color: transparent;
+    margin: 50px 60px;
+}
+
+.section-title {}
+
+.section-title h3 {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    text-align: center;
+    margin: 0px 0px 46px 0px;
+}
+
+.section-title h3 span {
+    color: #14BF96;
+}
+
+.why-section-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+}
+
+
+.why-section-box .box {
+    background-color: #FFF;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+.why-section-box .box h3 {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    text-transform: capitalize;
+    margin: 18px 0px 24px 0px;
+}
+
+.why-section-box .box p {
+    color: #696984;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 383px;
 }
