@@ -10,12 +10,17 @@
 
 main{
     margin: 500px;
+    background-color: #FFF;
 }
 
-/* body{
-    margin: 30px auto;
-    max-width: 1440px;
-} */
+body{
+    margin: 0px auto;
+    max-width: 120rem;
+}
+
+body{
+    background-color: #F6FAFE;
+}
 
 
 /* common class  */
