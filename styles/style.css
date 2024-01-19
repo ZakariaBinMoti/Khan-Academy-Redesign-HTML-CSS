@@ -50,6 +50,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+    text-align: center;
 }
 
 .navigation-left {
@@ -151,24 +153,24 @@ header hr {
 .header-content h3 {
     color: var(--Black, #000);
     font-family: 'Poppins';
-    font-size: 300%;
+    font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -1.44px;
     text-transform: capitalize;
     max-width: 651px;
-    position: relative;
 }
 
 .header-content h3 span {
     color: #14BF96;
+    position: relative;
 }
 
 .underline {
     position: absolute;
     left: 0px;
-    bottom: 64px;
+    bottom: -10px;
 }
 
 .header-content p {
@@ -227,7 +229,7 @@ header hr {
     margin: 50px 60px;
 }
 
-.section-title {}
+/* .section-title {} */
 
 .section-title h3 {
     color: #000;
@@ -278,4 +280,40 @@ header hr {
     font-weight: 400;
     line-height: normal;
     max-width: 383px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .navigation-left, .why-section-box,.navbar{
+        flex-direction: column;
+    }
+    .header-container{
+        flex-direction: column-reverse;
+        gap: 40px;
+        align-items: center;
+    }
+    .header-content h3 {
+        font-size: 22px;
+    }
+    header {
+        padding: 30px 20px 60px 20px;
+    }
+    .head-logo {
+        margin: 0px;
+    }
+    .hide{
+        display: none;
+    }
+    .section-title h3 {
+        font-size: 20px;
+        margin: 0px 0px 46px 0px;
+    }
+    .btn{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .why-section {
+        margin: 50px 20px;
+    }
 }
